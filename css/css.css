@@ -16,9 +16,10 @@ body {
 a {
     color: #f2f2f2;
     padding: .5em;
+    text-decoration: none;
 }
 
-a:hover {
+a:active {
     text-decoration: none;
     opacity: 60%;
 }
@@ -90,9 +91,14 @@ a:hover {
     display: block;
 }
 
+.header .nav-ul .nav-li:hover {
+    background: #ffffff;
+    color: black;
+}
+
 .header .nav-ul .nav-li .nav-a {
     text-decoration: none;
-    padding-left: 4em;
+    padding: .5em;
     width: 100%;
     color: #201e1e;
 }
@@ -101,9 +107,9 @@ a:hover {
     color: black;
 }
 
-.header .nav-ul .nav-li:hover {
-    background: #ffffff;
-    color: black;
+.header .nav-ul .nav-li .nav-a:focus {
+    color: #F5186D;
+    font-weight: bold;
 }
 
 .main__contenedor {
@@ -118,6 +124,7 @@ a:hover {
 
 .home0 article {
     flex-wrap: wrap;
+    width: 25%;
 }
 
 
@@ -221,7 +228,7 @@ section article div {
         text-align: right;
     }
     .header .nav-ul .nav-li {
-        padding: .5em .5em;
+        padding: .5em;
         display: block;
         text-align: right;
     }
@@ -240,9 +247,8 @@ section article div {
 
 @media screen and (min-width: 768px) {
     .header .nav-ul .nav-li {
-        padding: 1em;
+        padding: .2em;
         display: inline-block;
-        border-radius: 5px;
     }
     .header .nav-ul {
         text-align: right;
@@ -256,7 +262,6 @@ section article div {
     .header .nav-ul .nav-li {
         padding: 1em;
         display: inline-block;
-        border-radius: 10px 10px 0 0;
     }
     .home0 article {
         width: 25%;
