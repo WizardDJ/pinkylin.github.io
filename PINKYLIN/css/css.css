@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+a {
+    color: #f2f2f2;
+    padding: .5em;
+}
+
+a:hover {
+    text-decoration: none;
+    opacity: 60%;
+}
+
+
+/* iconos */
+
+.icon-telegram {
+    color: #3e95f8;
+}
+
+.icon-whatsapp {
+    color: rgb(61, 236, 45);
+}
+
+.icon-facebook2 {
+    color: rgb(66, 123, 228);
+    font-size: 1.2em;
+}
+
+.icon-instagram {
+    color: #fa0356;
+    font-size: 1.2em;
+}
+
+.redes__container {
+    font-family: "arial";
+    width: 100%;
+    text-align: right;
+    margin-top: 2.2em;
+    background-color: rgb(32, 30, 30);
+    padding: .5em 0;
+}
+
+.agreganos_banner {
+    position: fixed;
+    color: white;
+    background-color: rgb(32, 30, 30);
+    padding: 0 .5em 0 0;
+    display: inline-block;
+    font-size: 1em;
+    text-align: right;
+    width: 100%;
+    font-style: italic;
+}
+
+.agreganos_banner span {
+    font-style: normal;
+    font-size: 1.5em;
+    padding: 0 0 0 .2em;
+}
+
+.banner_contenedor {
+    background: rgb(13, 200, 233);
+    background: rgb(245, 24, 109);
+    text-align: center;
+}
+
+.banner-img {
+    padding: 1.3em;
+}
+
+
+/* seccion de header */
+
+.slice__gallery {
+    padding: 1em 0;
+}
+
+.header {
+    background: #73EABF;
+}
+
+.header .nav-nav {
+    text-align: right;
+    font-size: 1.2em;
+    text-decoration: none;
+    width: 100%;
+}
+
+.header .nav-ul {
+    margin: 0;
+}
+
+.header .nav-ul .nav-li {
+    padding: .5em;
+    display: block;
+}
+
+.header .nav-ul .nav-li .nav-a {
+    text-decoration: none;
+    padding-left: 4em;
+    width: 100%;
+    color: #201e1e;
+}
+
+.header .nav-ul .nav-li .nav-a:hover {
+    color: black;
+}
+
+.header .nav-ul .nav-li:hover {
+    background: #ffffff;
+    color: black;
+}
+
+.main__contenedor {
+    display: flex;
+    padding: 1em 0;
+    background: white;
+}
+
+.home0 {
+    display: flex;
+}
+
+.home0 article {
+    flex-wrap: wrap;
+}
+
+
+/* seccion de productos */
+
+section {
+    background: white;
+    /* margin: 1em 0; */
+    padding: .5em 0;
+    /* height: 1200px; */
+}
+
+section article {
+    width: 100px;
+    margin: 1em 0;
+    background: white;
+    /* margin-right: 2em; */
+    /* margin-right: 1em; */
+    /* padding: 1em; */
+}
+
+section article .marco {
+    margin: .5em 0;
+    border-radius: 5px;
+    padding: 0;
+}
+
+section article .marco .product {
+    margin-bottom: 1px;
+}
+
+section article .marco .description {
+    margin-bottom: 1px;
+}
+
+section article .marco .price {
+    border-radius: 0 0 5px 5px;
+}
+
+section article picture img {
+    border-radius: 5px 5px 0 0;
+}
+
+section article div {
+    background: #73EABF;
+    margin: 0;
+    padding: 1em;
+}
+
+.footerPinkyliin {
+    text-align: center;
+    /* background: #234F59; */
+}
+
+.categoria {
+    width: 100px;
+    padding: 1em 0;
+    /* margin: 1em; */
+}
+
+.redes__contenedor {
+    /* background:  #F2DCC2; */
+    background: #F24B6A;
+    background: rgb(245, 24, 109);
+    background: white;
+    bottom: 0;
+    margin: 0;
+}
+
+.redes__titulo {
+    color: white;
+    color: rgb(32, 30, 30);
+    padding: .5em 0 1em;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+}
+
+.derechos {
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    padding: .5em;
+    color: rgb(39, 39, 39);
+    width: 100%;
+    font-size: .8em;
+}
+
+.redes__sociales {
+    text-align: center;
+    padding: 1em 0;
+}
+
+.contenedor-imagen {
+    display: inline;
+    margin: 0 .3em;
+    padding: 0;
+}
+
+@media screen and (min-width: 480px) {
+    .header .nav-ul {
+        text-align: right;
+    }
+    .header .nav-ul .nav-li {
+        padding: .5em .5em;
+        display: block;
+        text-align: right;
+    }
+    .header .nav-ul .nav-li .nav-a {
+        padding: .5em;
+    }
+    .home0 article {
+        width: 100%;
+    }
+    .redes {
+        padding: 0;
+        margin: 0;
+        display: inline-block;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .header .nav-ul .nav-li {
+        padding: 1em;
+        display: inline-block;
+        border-radius: 5px;
+    }
+    .header .nav-ul {
+        text-align: right;
+    }
+    .home0 article {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .header .nav-ul .nav-li {
+        padding: 1em;
+        display: inline-block;
+        border-radius: 10px 10px 0 0;
+    }
+    .home0 article {
+        width: 25%;
+    }
+}

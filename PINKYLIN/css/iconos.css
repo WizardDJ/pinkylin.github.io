@@ -1,0 +1,159 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('/fonts/icomoon.eot?n71ksy');
+    src: url('/fonts/icomoon.eot?n71ksy#iefix') format('embedded-opentype'), url('/fonts/icomoon.ttf?n71ksy') format('truetype'), url('/fonts/icomoon.woff?n71ksy') format('woff'), url('fonts/icomoon.svg?n71ksy#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-image:before {
+    content: "\e90d";
+}
+
+.icon-camera:before {
+    content: "\e90f";
+}
+
+.icon-cart:before {
+    content: "\e93a";
+}
+
+.icon-credit-card:before {
+    content: "\e93f";
+}
+
+.icon-location:before {
+    content: "\e947";
+}
+
+.icon-mobile:before {
+    content: "\e958";
+}
+
+.icon-spinner9:before {
+    content: "\e982";
+}
+
+.icon-cog:before {
+    content: "\e994";
+}
+
+.icon-mug:before {
+    content: "\e9a2";
+}
+
+.icon-spoon-knife:before {
+    content: "\e9a3";
+}
+
+.icon-truck:before {
+    content: "\e9b0";
+}
+
+.icon-switch:before {
+    content: "\e9b6";
+}
+
+.icon-cool2:before {
+    content: "\e9ec";
+}
+
+.icon-circle-up:before {
+    content: "\ea41";
+}
+
+.icon-circle-right:before {
+    content: "\ea42";
+}
+
+.icon-circle-down:before {
+    content: "\ea43";
+}
+
+.icon-circle-left:before {
+    content: "\ea44";
+}
+
+.icon-radio-unchecked:before {
+    content: "\ea56";
+}
+
+.icon-facebook2:before {
+    content: "\ea91";
+}
+
+.icon-instagram:before {
+    content: "\ea92";
+}
+
+.icon-whatsapp:before {
+    content: "\ea93";
+}
+
+.icon-telegram:before {
+    content: "\ea95";
+}
+
+.icon-twitter:before {
+    content: "\ea96";
+}
+
+.icon-youtube:before {
+    content: "\ea9d";
+}
+
+.icon-github:before {
+    content: "\eab0";
+}
+
+.icon-appleinc:before {
+    content: "\eabe";
+}
+
+.icon-android:before {
+    content: "\eac0";
+}
+
+.icon-windows8:before {
+    content: "\eac2";
+}
+
+.icon-chrome:before {
+    content: "\ead9";
+}
+
+.icon-firefox:before {
+    content: "\eada";
+}
+
+.icon-opera:before {
+    content: "\eade";
+}
+
+.icon-file-pdf:before {
+    content: "\eadf";
+}
+
+.icon-html-five:before {
+    content: "\eae4";
+}
+
+.icon-css3:before {
+    content: "\eae6";
+}
