@@ -268,9 +268,9 @@ section article div {
 }
 
 @media screen and (min-width: 1280px) {
-    .header .nav-ul .nav-li {
-        padding: 1em;
-        display: inline-block;
+    .navegacion__ul {
+        margin-top: 1em;
+        justify-content: center;
     }
     .article__home {
         flex-wrap: wrap;
