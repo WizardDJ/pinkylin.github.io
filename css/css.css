@@ -35,6 +35,7 @@ a:hover {
     padding: .5em 0;
     display: flex;
     justify-content: space-around;
+    position: relative;
 }
 
 .agreganos_banner {
@@ -204,6 +205,31 @@ section article div {
     padding: 0;
 }
 
+#navPro {
+    display: none;
+}
+
+.menuPosicion {
+    padding: 1em;
+    border: none;
+    display: block;
+    background-color: rgb(32, 30, 30);
+    width: 100%;
+    text-align: left;
+    color: white;
+    cursor: pointer;
+}
+
+.subir {
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+    font-size: 3em;
+    color: rgb(115, 234, 191);
+    background-color: white;
+    border-radius: 50%;
+}
+
 @media screen and (min-width: 0px) {
     .agreganos_banner {
         display: flex;
@@ -225,7 +251,9 @@ section article div {
     .navegacion__li {
         display: block;
         width: 100%;
-        padding: 1em;
+        padding: 1em 4em;
+        color: rgb(0, 0, 0);
+        text-align: left;
     }
     .article__home {
         flex-wrap: wrap;
@@ -239,6 +267,14 @@ section article div {
 }
 
 @media screen and (min-width: 768px) {
+    #navPro {
+        display: block;
+    }
+    .menuPosicion {
+        width: 0;
+        height: 0;
+        padding: 0;
+    }
     .redes__container {
         padding: .5em 0;
         display: block;
