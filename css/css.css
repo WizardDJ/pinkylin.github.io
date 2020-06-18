@@ -61,7 +61,6 @@ a:hover {
 }
 
 .banner_contenedor {
-    background: rgb(13, 200, 233);
     background: rgb(245, 24, 109);
     text-align: center;
 }
@@ -308,6 +307,12 @@ section article div {
 }
 
 @media screen and (min-width: 1280px) {
+    .agreganos_banner {
+        font-size: 1.5em;
+    }
+    .redes__container {
+        font-size: 1.3em;
+    }
     .navegacion__ul {
         margin-top: 1em;
         justify-content: center;
