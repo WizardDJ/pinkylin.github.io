@@ -233,6 +233,16 @@ section article div {
     font-size: 1.2em;
 }
 
+
+/* imagen corporativa */
+
+.imagenCorporativa {
+    background-color: #333E48;
+    display: block;
+    width: 100%;
+    padding: .5em 0;
+}
+
 @media screen and (min-width: 0px) {
     .agreganos_banner {
         display: flex;
