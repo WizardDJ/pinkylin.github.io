@@ -35,7 +35,7 @@
 .icon-messenger:before,
 .messenger {
     content: "\e902";
-    color: #00b2ff;
+    color: #0099FF;
 }
 
 .icon-image:before {
@@ -193,12 +193,12 @@
 
 .icon-whatsapp:before,
 .whatsapp {
-    color: rgb(61, 236, 45);
+    color: #00E676;
 }
 
 .icon-facebook2:before,
 .facebook {
-    color: rgb(66, 123, 228);
+    color: #4267B2;
     font-size: 1.2em;
 }
 
