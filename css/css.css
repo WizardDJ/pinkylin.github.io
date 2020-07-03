@@ -155,6 +155,12 @@ section article div {
     padding: 1em;
 }
 
+.block {
+    height: 20em;
+    width: 100%;
+    background-color: rgb(245, 24, 109);
+}
+
 .footerPinkylin {
     text-align: center;
 }
