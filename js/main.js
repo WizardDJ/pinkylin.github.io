@@ -34,7 +34,7 @@ let barra = () => {
 		console.log(arrMenu[i])
 		let a = document.createElement("a")
 		a.className = 'nav_a';
-		a.href = `${arrMenu[i]}.html`
+		a.href = `${arrMenu[i].toLowerCase()}.html`
 		arrItem = arrMenu[i]
 		if(arrItem === 'index'){
 			arrItem = principal
