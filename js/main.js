@@ -31,7 +31,7 @@ whatsapp.href = `https://api.whatsapp.com/send?phone=57${telefono}/`
 let barra = () => {
 	let arrItem;
 	for (let i = 0; i < arrMenu.length; i++) {
-		console.log(arrMenu[i])
+		// console.log(arrMenu[i])
 		let a = document.createElement("a")
 		a.className = 'nav_a';
 		a.href = `${arrMenu[i].toLowerCase()}.html`
