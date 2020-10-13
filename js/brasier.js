@@ -44,7 +44,7 @@ const brasier = [
 		image:"./img/brasier/brasier6.jpg",
 		title:"Brasier 815",
 		description:"Colores: Blanco, Negro, Azulino, Rojo Candy",
-		garment: "Talla: 32, 34, 36,",
+		garment: "Talla: 32, 34, 36",
 		price: "Precio: $60.000 "
 	},
 	{
