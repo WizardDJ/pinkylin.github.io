@@ -51,48 +51,48 @@ const panty = [
 		id:6,
 		image:"./img/panty/panty1.jpg",
 		title:"Panty hilo 721, 830 y 828",
-		description:"Ref: 721 Precio: $ 20.000",
-		garment:"Ref: 830 Precio: $ 23.000 <br> Ref: 828 Precio: $ 23.000",
+		description:"Ref: 721 Precio: $ 20.000 <br> Ref: 830 Precio: $ 23.000 <br> Ref: 828 Precio: $ 23.000",
+		garment:"",
 		price:"Surtido disponible"
 	},
 	{
 		id:7,
 		image:"./img/panty/panty2.jpg",
 		title:"Panty 827, 392 y 843",
-		description:"Ref: 827 Precio: $ 23.000",
-		garment:"Ref: 392 Precio: $ 19.000 <br> Ref: 843 Precio: $ 30.000",
+		description:"Ref: 827 Precio: $ 23.000 <br> Ref: 392 Precio: $ 19.000 <br> Ref: 843 Precio: $ 30.000",
+		garment:"",
 		price:"Surtido disponible"
 	},	
 	{
 		id:8,
 		image:"./img/panty/panty3.jpg",
 		title:"Panty 716, 391 y 829",
-		description:"Ref: 716 Precio: $ 22.000",
-		garment:"Ref: 391 Precio: $ 22.000 <br> Ref: 829 Precio: $ 26.000",
+		description:"Ref: 716 Precio: $ 22.000 <br> Ref: 391 Precio: $ 22.000 <br> Ref: 829 Precio: $ 26.000",
+		garment:"",
 		price:"Surtido disponible"
 	},
 	{
 		id:9,
 		image:"./img/panty/panty4.jpg",
 		title:"Panty 855, 826 y 829",
-		description:"Ref: 855 Precio: $ 25.000",
-		garment:"Ref: 826 Precio: $ 25.000 <br> Ref: 829 Precio: $ 26.000",
+		description:"Ref: 855 Precio: $ 25.000 <br> Ref: 826 Precio: $ 25.000 <br> Ref: 829 Precio: $ 26.000",
+		garment:"",
 		price:"Surtido disponible"
 	},
 	{
 		id:10,
 		image:"./img/panty/panty5.jpg",
 		title:"Panty 717 y 718", 
-		description:"Ref: 717 Precio: $ 25.000 <br> Ref: 718 Precio: $ 25.00",
-		garment:"0",
+		description:"Ref: 717 Precio: $ 25.000 <br> Ref: 718 Precio: $ 25.000",
+		garment:"",
 		price:"Surtido disponible"
 	},
 	{
 		id:11,
 		image:"./img/panty/panty6.jpg",
 		title:"Panty 825, 396 y 426",
-		description:"Ref: 825 Precio: $ 27.000",
-		garment:"Ref: 396 Precio: $ 23.000 <br> Ref: 426 Precio: $ 23.000",
+		description:"Ref: 825 Precio: $ 27.000 <br> Ref: 396 Precio: $ 23.000 <br> Ref: 426 Precio: $ 23.000",
+		garment:"",
 		price:"Surtido disponible"
 	}
 	

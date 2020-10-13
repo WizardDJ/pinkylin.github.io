@@ -2,34 +2,34 @@ const conjuntos = [
 	{	
 		id:0,
 		image:"./img/conjunto/conjunto10.jpg",
-		title:"Brasier y Panty Ref: 810 y 811",
+		title:"Brasier y Panty <br> Ref: 810 y 811",
 		description:"Se puede pedir por separado",
-		garment: "Brasier: $56.000",
-		price: "Panty: $27.000"
+		garment: "Brasier: $56.000 ó Panty: $27.000",
+		price: "Conjunto: 83.000"
 	},
 	{	
 		id:1,
 		image:"./img/conjunto/conjunto1.jpg",
-		title:"Brasier y Panty Ref: 806 y 807",
+		title:"Brasier y Panty <br> Ref: 806 y 807",
 		description:"Se puede pedir por separado",
-		garment: "Brasier: $56.000",
-		price: "Panty: $25.000 "
+		garment: "Brasier: $56.000 ó Panty: $25.000",
+		price: "Conjunto: 81.000"
 	},
 	{	
 		id:2,
 		image:"./img/conjunto/conjunto2.jpg",
-		title:"Brasier y Panty Ref: 812 y 813",
+		title:"Brasier y Panty <br> Ref: 812 y 813",
 		description:"Se puede pedir por separado",
-		garment: "Brasier: $55.000",
-		price: "Panty: $25.000 "
+		garment: "Brasier: $55.000 ó Panty: $25.000",
+		price: "Conjunto: 80.000"
 	},
 	{	
 		id:3,
 		image:"./img/conjunto/conjunto3.jpg",
-		title:"Brasier y Panty Ref: 808 y 809",
+		title:"Brasier y Panty <br> Ref: 808 y 809",
 		description:"Se puede pedir por separado",
-		garment: "Brasier: $67.000",
-		price: "Panty: $25.000 "
+		garment: "Brasier: $67.000 ó Panty: $25.000",
+		price: "Conjunto: $92.000"
 	},
 	{	
 		id:4,

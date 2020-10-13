@@ -26,7 +26,7 @@ const brasier = [
 	{
 		id:3,
 		image:"./img/brasier/brasier4.jpg",
-		title:"Brasier Doble Realce 819",
+		title:"Brasier <br> Doble Realce 819",
 		description:"Colores: Blanco, Negro, Nude",
 		garment: "Talla: 32 - 34 - 36",
 		price: "Precio: $59.000 "
@@ -34,7 +34,7 @@ const brasier = [
 	{
 		id:4,
 		image:"./img/brasier/brasier5.jpg",
-		title:"Brasier Escote profundo 818",
+		title:"Brasier <br> Escote profundo 818",
 		description:"Colores: Blanco, Negro, Nude, Rojo Candy",
 		garment: "Talla: 32 - 34 - 36",
 		price: "Precio: $65.000 "
@@ -66,7 +66,7 @@ const brasier = [
 	{
 		id:8,
 		image:"./img/brasier/brasier9.jpg",
-		title:"Brasier Doble Realce 645",
+		title:"Brasier <br> Doble Realce 645",
 		description:"Colores: Blanco, Negro, Nude, Azulino, Mauve, Grape",
 		garment: "Talla: 32 - 34 - 36",
 		price: "Precio: $50.000 "

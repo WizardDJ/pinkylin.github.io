@@ -2,7 +2,7 @@ const caballeros = [
 	{
 		id:0,
 		image:"img/caballero/caballero1.jpg",
-		title:"Boxer en algodon Ref: 3011",
+		title:"Boxer en algodon <br> Ref: 3011",
 		description:"Marca Reymon",
 		garment:"Tallas: XS S M L XL",
 		price:"Precio: $ 16.000"
@@ -10,7 +10,7 @@ const caballeros = [
 	{
 		id:1,
 		image:"img/caballero/caballero2.jpg",
-		title:"Boxer en algodon Ref: 3011",
+		title:"Boxer en algodon <br> Ref: 3011",
 		description:"Marca Reymon",
 		garment:"Tallas: XS S M L XL",
 		price:"Precio: $ 16.000"
@@ -18,7 +18,7 @@ const caballeros = [
 	{
 		id:2,
 		image:"img/caballero/caballero3.jpg",
-		title:"Boxer en algodon Ref: 3010",
+		title:"Boxer en algodon <br> Ref: 3010",
 		description:"Marca Reymon",
 		garment:"Tallas: XS S M L XL",
 		price:"Precio: $ 16.000"
@@ -26,7 +26,7 @@ const caballeros = [
 	{
 		id:3,
 		image:"img/caballero/caballero4.jpg",
-		title:"Boxer en algodon Ref: 3016",
+		title:"Boxer en algodon <br> Ref: 3016",
 		description:"Marca Reymon",
 		garment:"Tallas: XS S M L XL",
 		price:"Precio: $ 16.000"
@@ -34,7 +34,7 @@ const caballeros = [
 	{
 		id:4,
 		image:"img/caballero/caballero5.jpg",
-		title:"Boxer en algodon Ref: 301",
+		title:"Boxer en algodon <br> Ref: 301",
 		description:"Marca Reymon",
 		garment:"Tallas: XS S M L XL",
 		price:"Precio: $ 16.000"
@@ -42,7 +42,7 @@ const caballeros = [
 	{
 		id:5,
 		image:"img/caballero/caballero6.jpg",
-		title:"Boxer en algodon largo Ref: 3023",
+		title:"Boxer en algodon largo <br> Ref: 3023",
 		description:"Marca Reymon",
 		garment:"Tallas: XS S M L XL",
 		price:"Precio: $ 18.000"
@@ -50,7 +50,7 @@ const caballeros = [
 	{
 		id:6,
 		image:"img/caballero/caballero7.jpg",
-		title:"Boxer en algodon Ref: 3025",
+		title:"Boxer en algodon <br> Ref: 3025",
 		description:"Marca Reymon",
 		garment:"Tallas: XS S M L XL",
 		price:"Precio: $ 16.000"
@@ -58,7 +58,7 @@ const caballeros = [
 	{
 		id:7,
 		image:"img/caballero/caballero8.jpg",
-		title:"Boxer en microfibra Ref: 3028",
+		title:"Boxer en microfibra <br> Ref: 3028",
 		description:"Marca Reymon",
 		garment:"Tallas: XS S M L XL",
 		price:"Precio: $ 20.000"
@@ -66,7 +66,7 @@ const caballeros = [
 	{
 		id:8,
 		image:"img/caballero/caballero9.jpg",
-		title:"Boxer en algodon Ref: 3030",
+		title:"Boxer en algodon <br> Ref: 3030",
 		description:"Marca Reymon",
 		garment:"Tallas: XS S M L XL",
 		price:"Precio: $ 16.000"
@@ -74,7 +74,7 @@ const caballeros = [
 	{
 		id:9,
 		image:"img/caballero/caballero10.jpg",
-		title:"Boxer tejido plano Ref: 3051",
+		title:"Boxer tejido plano <br> Ref: 3051",
 		description:"Marca Reymon",
 		garment:"Tallas: XS S M L XL",
 		price:"Precio: $ 23.000"
@@ -82,7 +82,7 @@ const caballeros = [
 	{
 		id:10,
 		image:"img/caballero/caballero11.jpg",
-		title:"Tejido plano con Boxer interno Ref: 3052",
+		title:"Tejido plano con <br> Boxer interno Ref: 3052",
 		description:"Marca Reymon",
 		garment:"Tallas: XS S M L XL",
 		price:"Precio: $ 27.000"
@@ -90,7 +90,7 @@ const caballeros = [
 	{
 		id:11,
 		image:"img/caballero/caballero12.jpg",
-		title:"Tejido plano pantaloncillo interno Ref: 3054",
+		title:"Tejido plano pantaloncillo interno <br> Ref: 3054",
 		description:"Marca Reymon",
 		garment:"Tallas: XS S M L XL",
 		price:"Precio: $ 23.000"

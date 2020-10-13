@@ -145,8 +145,6 @@ a:hover {
 	width: 90%;
 	padding-bottom: 1em;
 	margin: 0 auto;
-	margin-bottom: .5em;
-	border-bottom: 1px solid rgb(255, 255, 255);
 }
 .article_home .description, .garment, .price{
 	width: 90%;
@@ -157,8 +155,10 @@ a:hover {
 }
 .article_home .price{
 	margin-top: .5em;
+	padding-top: .5em;
 	text-align: end;
 	font-size: 1.5em;
+	border-top: 1px solid white;
 }
 
 .full {
@@ -260,7 +260,7 @@ em {
 	.agreganos_banner {
 		display: flex;
 		justify-content: center;
-		font-size: 1.5em;
+		font-size: 1.3em;
 		padding: .2em 1em;
 		width: 100%;
 	}
@@ -298,6 +298,14 @@ em {
 	
 	.article_home{
 		width: 100%;
+	}
+	.article_home .title{
+		font-size: 1.5em;
+		padding-bottom:.5em;
+		/* margin-bottom: 0; */
+	}
+	.article_home .price{
+		font-size: 1.3em;
 	}
 
 	.redes {
@@ -372,6 +380,15 @@ em {
 	.article_home{
 		width: 50%;
 		font-size: 1rem;
+	}
+	.article_home .title{
+		font-size: 1.8em;
+	}
+	.article_home .description{
+		font-size: 1.3em;
+	}
+	.article_home .price{
+		font-size: 1.5em;
 	}
 
 }

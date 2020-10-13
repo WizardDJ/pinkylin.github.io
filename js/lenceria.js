@@ -146,7 +146,7 @@ const lenceria = [
 	{
 		id:18,
 		image:"./img/lenceria/lenceria12.jpg",
-		title:"Conjunto Sensual 838 y 839",
+		title:"Conjunto Sensual <br> 838 y 839",
 		description:"Kimono + Pijama Short <br> Colores: Negro",
 		garment:"Tallas: S - M - L ",
 		price:"Precio: $ 159.000"
