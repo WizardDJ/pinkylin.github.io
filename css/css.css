@@ -5,6 +5,7 @@
 	padding: 0;
 	margin: 0;
 }
+
 body {
 	font-family: 'Poppins', 'sans-serif', 'icomoon', "Open Sans";
 	font-size: 16px;
@@ -122,9 +123,11 @@ a:hover {
 }
 
 .article_container{
-    border-radius: 5px;
-    background: #7DFAB1;
-    margin: 1em;
+    border-radius: 8px;
+    /* background: #7DFAB1; */
+    background: #F5186D;
+	margin: 1em;
+	color: white;
 }
 .article_home img {
     width: 100%;
@@ -180,12 +183,12 @@ a:hover {
 }
 
 .redes__titulo {
-	color: rgb(32, 30, 30);
+	color: rgb(255, 255, 255);
 	padding: 2em 0 ;
 	text-align: center;
 	width: 100%;
 	margin: 0;
-	background-color: yellow;
+	background-color: #F5186D;
 }
 
 .derechos {
@@ -214,7 +217,8 @@ background-color: #1d1d1d;
 	bottom: 1em;
 	right: .5em;
 	font-size: 3em;
-	color: #7DFAB1;
+	/* color: #7DFAB1; */
+	color: #F5186D;
 	background-color: white;
 	border-radius: 50%;
 }
