@@ -206,18 +206,17 @@ const pijamas = [
 	},
 	{
 		id:23,
-	image:"img/pijama/pijama24.jpg",
-	title:"Buso Peluche 849",
-	description:"Cuello alto, peluche",
-	garment:"Talla: S M L XL",
-	price:"Precio: $ 75.000",
+		image:"img/pijama/pijama24.jpg",
+		title:"Buso Peluche 849",
+		description:"Cuello alto, peluche",
+		garment:"Talla: S M L XL",
+		price:"Precio: $ 75.000",
 	},
 ];
 
 let dataBase = pijamas;
 
 let section = document.getElementById("section")
-
 
 class Batman {
 	constructor(title, image, description,garment,price) {
@@ -231,13 +230,7 @@ class Batman {
 
 let counter = 0;
 
-function timex() {
-	setTimeout(() => {
-		send();
-	}, 1)
-}
-
-function send() {
+const send = () => {
 	if (counter < dataBase.length) {
 		// console.log(counter, dataBase.length)
 		const robin = new Batman(`${dataBase[counter].title}`,
@@ -262,7 +255,7 @@ function send() {
 			</article>
 		`;
 		counter++
-		timex();
+		send();
 		}
 }
 send();

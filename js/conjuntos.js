@@ -85,7 +85,6 @@ let dataBase = conjuntos;
 
 let section = document.getElementById("section")
 
-
 class Batman {
 	constructor(title, image, description,garment,price) {
 		this.title = `${title}`;
@@ -98,13 +97,7 @@ class Batman {
 
 let counter = 0;
 
-function timex() {
-	setTimeout(() => {
-		send();
-	}, 1)
-}
-
-function send() {
+const send = () => {
 	if (counter < dataBase.length) {
 		// console.log(counter, dataBase.length)
 		const robin = new Batman(`${dataBase[counter].title}`,
@@ -129,7 +122,7 @@ function send() {
 			</article>
 		`;
 		counter++
-		timex();
+		send();
 		}
 }
 send();

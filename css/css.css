@@ -6,7 +6,7 @@
 	margin: 0;
 }
 
-.principal{
+.container{
 	display:flex;
 	flex-wrap:wrap;
 	max-width:100%;
@@ -38,6 +38,7 @@ a {
 a:hover {
 	text-decoration: none;
 }
+
 
 /* banner agreganos */
 .logo-svg{
@@ -121,7 +122,7 @@ a:hover {
 }
 
 .nav_li {
-    border: 1px solid #F5186D;
+	border: 1px solid #F5186D;
     font-weight: bold;
 } 
 
@@ -130,9 +131,6 @@ a:hover {
     color: #F5186D;
     border: 1px solid #F5186D;
     font-weight: bold;
-}
-.nav_a {
-	margin: 0;
 }
 
 /* seccion de productos */
@@ -185,12 +183,6 @@ a:hover {
 	border-top: 1px solid white;
 }
 
-.full {
-	width: 100%;
-	margin: 0 auto;
-	padding: 0;
-}
-
 .footerPinkylin {
 	text-align: center;
 	padding: 0;
@@ -240,13 +232,14 @@ background-color: #1d1d1d;
 
 .subir {
 	position: fixed;
-	bottom: 1em;
-	right: .5em;
+	bottom: 0.5em;
+	right: 0.4em;
 	font-size: 3em;
 	/* color: #7DFAB1; */
 	color: #F5186D;
 	background-color: white;
 	border-radius: 50%;
+	z-index: 2000;
 }
 
 em {
@@ -280,10 +273,10 @@ em {
 
 @media screen and (min-width: 0px) {
 	.logo-svg{
-		margin: 0;
-		bottom: 0;
-		width: 40%;
-		border-radius: 0;
+		margin: 0 0 0 1em;
+		bottom: 0em;
+		width: 60%;
+		border-radius: 3px;
 		}
 	.ed-container {
 		padding: 0;
@@ -338,6 +331,9 @@ em {
 		padding: 0;
 		margin: 0;
 		display: inline-block;
+	}
+	.footerPinkylin{
+		margin: 2.5em 0;
 	}
 }
 
@@ -423,6 +419,9 @@ em {
 	}
 	.article_home .price{
 		font-size: 1.5em;
+	}
+	.footerPinkylin{
+		margin: 0;
 	}
 
 }

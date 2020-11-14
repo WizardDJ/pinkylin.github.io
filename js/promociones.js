@@ -265,13 +265,7 @@ class Batman {
 
 let counter = 0;
 
-function timex() {
-	setTimeout(() => {
-		send();
-	}, 1)
-}
-
-function send() {
+const send = () => {
 	if (counter < dataBase.length) {
 		// console.log(counter, dataBase.length)
 		const robin = new Batman(`${dataBase[counter].title}`,
@@ -296,7 +290,7 @@ function send() {
 			</article>
 		`;
 		counter++
-		timex();
+		send();
 		}
 }
 send();
