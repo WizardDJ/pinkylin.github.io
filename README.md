@@ -1,12 +1,12 @@
 # pinkylin.github.io
+## Tienda online en la linea de prendas intimas para dama y caballero
 
-proyecto creado para hacer practicas en Frontend
-
-### Lanzar tienda online con la linea de prendas intimas para dama y caballero
-
-## Lenceria
-## Conjuntos
-## Pantys
-## Brasier
-## Pijamas
-Entre otros.
+### 1. Conjuntos
+### 2. Pantys
+### 3. Brasier
+### 4. Lenceria
+### 5. Pijamas
+### 6. Caballero
+### 7. Promociones
+### 8. Pinkylin
+# Entre otros.
