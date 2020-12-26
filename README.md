@@ -1,6 +1,6 @@
 # Pinkylin
 ## Tienda online en la linea...
-## prendas intimas para dama y caballero
+prendas intimas para dama y caballero
 
 #### 1. Conjuntos
 #### 2. Pantys
