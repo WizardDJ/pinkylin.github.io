@@ -14,7 +14,7 @@ function toggleButton() {
 
 // parametros del menu
 
-let telefono = "";
+let telefono = "3192205259";
 
 const arrMenu = ['index', 'Panty', 'Brasier', 'Lenceria', 'Pijama', 'Caballero', 'Promociones', 'Pinkylin']
 let principal = 'Conjuntos'
