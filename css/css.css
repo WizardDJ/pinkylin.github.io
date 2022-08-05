@@ -4,7 +4,7 @@
 	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
-	font-family: 'Poppins', 'sans-serif', 'icomoon', "Open Sans";
+	font-family: 'Arial', 'Poppins', 'sans-serif', 'icomoon', "Open Sans";
 }
 
 .container{
@@ -23,7 +23,7 @@
 }
 
 body {
-	font-family: 'Poppins', 'sans-serif', 'icomoon', "Open Sans";
+	font-family: 'Arial', 'Poppins', 'sans-serif', 'icomoon', "Open Sans";
 	font-size: 16px;
 	width: 100%;
 	background-color: white;
@@ -52,7 +52,7 @@ a:hover {
 }
 
 .agreganos_banner {
-	color: rgb(245, 24, 109);
+	color:rgb(0, 0, 0);
 	border-bottom: 1px solid rgb(209, 210, 211);
 	padding: 0 .5em 0 0;
 	font-size: 1em;
@@ -85,7 +85,7 @@ a:hover {
 }
 
 .banner_contenedor {
-	background-color: rgb(245, 24, 109);
+	background-color: #f5f118;
 	text-align: center;
 	padding: 2em 0 1em;
 }
@@ -106,7 +106,7 @@ a:hover {
 	padding: 1em;
 	width: 100%;
     border: none;
-    background-color: #F5186D;
+    background-color: #F5f118;
 	margin: 0 auto;
     color: white;
     cursor: pointer;
@@ -123,14 +123,14 @@ a:hover {
 }
 
 .nav_li {
-	border: 1px solid #F5186D;
+	border: 1px solid #F5F118;
     font-weight: bold;
 } 
 
 .nav_li:hover {
     background: white;
-    color: #F5186D;
-    border: 1px solid #F5186D;
+    color: #F5f118;
+    border: 1px solid #F5F118;
     font-weight: bold;
 }
 
@@ -150,9 +150,9 @@ a:hover {
 .article_container{
     border-radius: 8px;
     /* background: #7DFAB1; */
-    background: #F5186D;
+    background: #f5f118;
 	margin: 1em;
-	color: white;
+	color: rgb(0, 0, 0);
 }
 .article_home img {
     width: 100%;
@@ -181,7 +181,7 @@ a:hover {
 	margin-top: .5em;
 	padding-top: .5em;
 	text-align: end;
-	border-top: 1px solid white;
+	border-top: 1px solid rgb(0, 0, 0);
 }
 
 .footerPinkylin {
@@ -202,16 +202,16 @@ a:hover {
 }
 
 .redes__titulo {
-	color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
 	padding: 2em 0 ;
 	text-align: center;
 	width: 100%;
 	margin: 0;
-	background-color: #F5186D;
+	background-color: #F5F118;
 }
 
 .derechos {
-background-color: #1d1d1d;
+	background-color: #000;
 	text-align: center;
 	padding: 1em 0;
 	color: rgba(255, 255, 255, 0.582);
@@ -236,8 +236,7 @@ background-color: #1d1d1d;
 	bottom: 0.5em;
 	right: 0.4em;
 	font-size: 3em;
-	/* color: #7DFAB1; */
-	color: #F5186D;
+	color: #000000;
 	background-color: white;
 	border-radius: 50%;
 	z-index: 2000;
@@ -310,7 +309,7 @@ em {
 	}
     .nav_li:hover {
         text-align: center;
-        background: #F5186D;
+        background: #F5F118;
         color: white;
         font-weight: bold;
         font-size: 1em;
@@ -378,9 +377,9 @@ em {
 	.nav_li:hover {
         border-radius: 5px;
         text-align: center;
-        background: #F5186D;
-        color: white;
-        border: 1px solid #F5186D;
+        background: #F5F118;
+        color: rgb(0, 0, 0);
+        border: 1px solid #F5F118;
         font-weight: bold;
         font-size: 1em;
     }
