@@ -2,17 +2,31 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="222.48122mm"
    height="77.576912mm"
    viewBox="0 0 222.48122 77.576912"
    version="1.1"
    id="svg5"
-   inkscape:version="1.1 (1:1.1+202106031931+af4d65493e)"
-   sodipodi:docname="logo.svg"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="logo.svg">
+  <metadata
+     id="metadata11">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
   <sodipodi:namedview
      id="namedview7"
      pagecolor="#ffffff"
@@ -29,12 +43,12 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:zoom="0.69130191"
-     inkscape:cx="135.97532"
+     inkscape:cx="276.77233"
      inkscape:cy="278.4601"
      inkscape:window-width="1920"
-     inkscape:window-height="948"
-     inkscape:window-x="0"
-     inkscape:window-y="27"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1" />
   <defs
@@ -50,27 +64,27 @@
        height="77.576912"
        x="-1.8773832"
        y="105.56719"
-       style="fill:#f5186d;fill-opacity:1;stroke-width:0.264583" />
+       style="fill:#f5f118;fill-opacity:1;stroke-width:0.264583" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:41.0213px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.02553"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:41.0213px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.02553;"
        x="29.843575"
        y="153.45787"
        id="text1287"><tspan
          sodipodi:role="line"
          id="tspan1285"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';fill:#ffffff;stroke-width:1.02553"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Bold';fill:#000000;stroke-width:1.02553;"
          x="29.843575"
          y="153.45787">Pinkylin</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;line-height:1.25;font-family:Chilanka;-inkscape-font-specification:Chilanka;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.302055"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;line-height:1.25;font-family:Chilanka;-inkscape-font-specification:Chilanka;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.302055;"
        x="32.535458"
        y="165.79831"
        id="text8387"><tspan
          sodipodi:role="line"
          id="tspan8385"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Chilanka;-inkscape-font-specification:Chilanka;stroke-width:0.302055;font-size:12.7px"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Chilanka;-inkscape-font-specification:Chilanka;stroke-width:0.302055;font-size:12.7px;fill:#000000;"
          x="32.535458"
          y="165.79831">Moda Intima</tspan></text>
   </g>
