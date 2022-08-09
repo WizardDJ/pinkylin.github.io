@@ -108,9 +108,9 @@ a:hover {
     border: none;
     background-color: #F5f118;
 	margin: 0 auto;
-    color: white;
+    color: rgb(0, 0, 0);
     cursor: pointer;
-    font-family: 'Poppins', "sans-serif" 'icomoon', "Open Sans";
+    font-family: 'arial','Poppins', "sans-serif" 'icomoon', "Open Sans";
 	display: block;
 }
 
@@ -275,7 +275,7 @@ em {
 	.logo-svg{
 		margin: 0 0 0 1em;
 		bottom: 0em;
-		width: 60%;
+		width: 30%;
 		border-radius: 3px;
 		}
 	.ed-container {
@@ -310,7 +310,7 @@ em {
     .nav_li:hover {
         text-align: center;
         background: #F5F118;
-        color: white;
+        color: rgb(0, 0, 0);
         font-weight: bold;
         font-size: 1em;
     }
@@ -358,6 +358,7 @@ em {
 		margin: 0;
 		height: 0;
 		padding: 0;
+		font-family: 'arial','Poppins', "sans-serif" 'icomoon', "Open Sans";
 	}
 	
 	.nav_ul {
