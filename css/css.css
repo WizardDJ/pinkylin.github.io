@@ -359,6 +359,7 @@ em {
 		height: 0;
 		padding: 0;
 		font-family: 'arial','Poppins', "sans-serif" 'icomoon', "Open Sans";
+		color: rgb(255, 255, 255);
 	}
 	
 	.nav_ul {
