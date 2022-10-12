@@ -1,11 +1,52 @@
+const talla = "Talla: 32, 34, 36, 38"
 const conjuntos = [
 	{	
 		id:0,
-		image:"./img/conjunto/conjunto10.jpg",
-		title:"Brasier y Panty <br> Ref: 810 y 811",
-		description:"Se puede pedir por separado",
-		garment: "Brasier: $56.000 <br> Panty: $27.000",
-		price: "Conjunto: 83.000"
+		image:"./img/conjunto/931-932.jpg",
+		title:"Brasier y Panty <br> Ref: 931 y 932",
+		description: talla,
+		garment: "Tipo bustier en lycra y encaje, copa <br> entera transpirable, aro y varilla lateral para mayor ajuste, espalda sin costuras. Abrochadura 6x3.",
+		price: "Colores: Blanco, Negro, Rojo Candy, Maverick"
+	},
+	{	
+		id:1,
+		image:"./img/conjunto/933-934.jpg",
+		title:"Brasier y Panty <br> Ref: 933 y 934",
+		description: talla,
+		garment: "Tipo bustier en lycra y encaje, copa <br> entera transpirable, aro y varilla lateral para mayor ajuste, espalda sin costuras. Abrochadura 6x3.",
+		price: "Colores: Blanco, Negro, Rojo Candy, Maverick"
+	},
+	{	
+		id:2,
+		image:"./img/conjunto/935-936.jpg",
+		title:"Brasier y Panty <br> Ref: 935 y 936",
+		description: talla,
+		garment: "Tipo bustier en lycra y encaje, copa <br> entera transpirable, aro y varilla lateral para mayor ajuste, espalda sin costuras. Abrochadura 6x3.",
+		price: "Colores: Blanco, Negro, Rojo Candy, Maverick"
+	},
+	{	
+		id:3,
+		image:"./img/conjunto/940-941.jpg",
+		title:"Brasier y Panty <br> Ref: 931 y 932",
+		description: talla,
+		garment: "Tipo bustier en lycra y encaje, copa <br> entera transpirable, aro y varilla lateral para mayor ajuste, espalda sin costuras. Abrochadura 6x3.",
+		price: "Colores: Blanco, Negro, Rojo Candy, Maverick"
+	},
+	{	
+		id:4,
+		image:"./img/conjunto/942-943.jpg",
+		title:"Brasier y Panty <br> Ref: 931 y 932",
+		description: talla,
+		garment: "Tipo bustier en lycra y encaje, copa <br> entera transpirable, aro y varilla lateral para mayor ajuste, espalda sin costuras. Abrochadura 6x3.",
+		price: "Colores: Blanco, Negro, Rojo Candy, Maverick"
+	},
+	{	
+		id:5,
+		image:"./img/conjunto/937.jpg",
+		title:"Brasier y Panty <br> Ref: 931 y 932",
+		description: talla,
+		garment: "Tipo bustier en lycra y encaje, copa <br> entera transpirable, aro y varilla lateral para mayor ajuste, espalda sin costuras. Abrochadura 6x3.",
+		price: "Colores: Blanco, Negro, Rojo Candy, Maverick"
 	},
 ];
 
