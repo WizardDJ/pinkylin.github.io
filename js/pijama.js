@@ -1,15 +1,6 @@
-const pijamas = [
-	{
-		id:0,
-		image:"img/pijama/pijama1.jpg",
-		title:"Pijama 847 ",
-		description:"Satín Pantalón, top tiras",
-		garment:"Talla: S M L XL",
-		price:"Precio: $ 99.900",
-	},
-];
+import { pijama }  from './data.js' 
 
-let dataBase = pijamas;
+let dataBase = pijama;
 
 let section = document.getElementById("section")
 

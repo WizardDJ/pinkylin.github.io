@@ -1,3 +1,8 @@
+/*
+805, 938 
+937, 939, 
+*/
+
 const talla = "Talla: 32, 34, 36, 38"
 const conjuntos = [
 	{	
@@ -5,8 +10,8 @@ const conjuntos = [
 		image:"./img/conjunto/931-932.jpg",
 		title:"Brasier y Panty <br> Ref: 931 y 932",
 		description: talla,
-		garment: "Tipo bustier en lycra y encaje, copa <br> entera transpirable, aro y varilla lateral para mayor ajuste, espalda sin costuras. Abrochadura 6x3.",
-		price: "Colores: Blanco, Negro, Rojo Candy, Maverick"
+		garment: "Tipo bustier en lycra y encaje, copa <br> entera transpirable, aro y varilla lateral para mayor ajuste, espalda sin costuras. Abrochadura 6x3. <br> Colores: Blanco, Negro, Rojo Candy, Maverick.",
+		price: "Brasier $68 mil y Panty $35 mil $103.000 pesos"
 	},
 	{	
 		id:1,

@@ -1,13 +1,4 @@
-const panty = [
-	{
-		id:0,
-		image:"./img/panty/panty7.jpg",
-		title:"Cachetero encaje",
-		description:"Ref: DNA01 Colores surtidos",
-		garment: "Tallas: S M L",
-		price: "Precio: $25.000"
-	},
-];
+import { panty } from './data.js'
 
 let dataBase = panty;
 

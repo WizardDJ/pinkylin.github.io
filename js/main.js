@@ -14,9 +14,10 @@ function toggleButton() {
 
 // parametros del menu
 
-let telefono = "3192205259";
+let telefono = "3114689389, 3166471805";
 
-const arrMenu = ['index', 'Panty', 'Brasier', 'Lenceria', 'Pijama', 'Caballero', 'Promociones', 'Pinkylin']
+const arrMenu = ['Playa', 'Lenceria', 'index', 'Panty', 'Brasier', 'Pijama', 'Caballero', 'Pinkylin']
+
 let principal = 'Conjuntos'
 
 const telefonohtml = document.querySelector('.agreganos_banner span');
@@ -28,7 +29,7 @@ whatsapp.href = `https://api.whatsapp.com/send?phone=57${telefono}/`
 let barra = () => {
 	let arrItem;
 	for (let i = 0; i < arrMenu.length; i++) {
-		let a = document.createElement("a")
+		let a = document.createElement("a")	
 		a.className = 'nav_a';
 		a.href = `${arrMenu[i].toLowerCase()}.html`
 		arrItem = arrMenu[i]

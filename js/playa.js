@@ -1,16 +1,6 @@
-const promociones = [
-	{
-		id:0,
-		image:"./img/medias/0.jpg",
-		title:"Medias térmicas",
-		description:"Media exclusiva de animalitos, varios motivos, térmicas.",
-		garment:"",
-		price:"Precio: $15.000"
-	},
-	
-];
+import { playa } from './data.js'
 
-let dataBase = promociones;
+let dataBase = playa;
 
 let section = document.getElementById("section")
 

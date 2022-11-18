@@ -1,13 +1,4 @@
-const lenceria = [
-	{
-		id:0,
-		image:"./img/lenceria/lenceria1.jpg",
-		title:"Lencería cachetero",
-		description:"Ref: DNL01 Colores surtidos",
-		garment:"Tallas: S M L",
-		price:"Precio: $ 60.000"
-	},
-];
+import { lenceria } from './data.js'
 
 let dataBase = lenceria;
 

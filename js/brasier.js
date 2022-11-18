@@ -1,13 +1,4 @@
-const brasier = [
-	{
-		id:0,
-		image:"./img/brasier/brasier1.jpg",
-		title:"Brasier 814",
-		description:"Colores: Blanco, Negro, Grape, Verde Garden",
-		garment: "Talla: 32, 34, 36, 38",
-		price: "Precio: $58.000"
-	},
-];
+import { brasier } from './data.js'
 
 let dataBase = brasier;
 

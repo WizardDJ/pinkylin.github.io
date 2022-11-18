@@ -1,13 +1,4 @@
-const caballeros = [
-	{
-		id:0,
-		image:"img/caballero/caballero1.jpg",
-		title:"Boxer en algodon <br> Ref: 3011",
-		description:"Marca Reymon",
-		garment:"Tallas: XS S M L XL",
-		price:"Precio: $ 16.000"
-	},
-];
+import { caballeros } from './data.js'
 
 let dataBase = caballeros;
 
