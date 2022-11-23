@@ -371,7 +371,7 @@ em {
 	}
 	
 	.nav_ul {
-		padding: 1.5em 0 1em;
+		padding: .5em 0 .5em;
 		display: flex;
 		flex-flow: row wrap;
 		justify-content: flex-end;
@@ -454,7 +454,7 @@ em {
 	}
 	.redes__container {
 		font-size: 1.3em;
-		margin-top: 6em;
+		margin-top: 4em;
 	}
 	.nav-bar {
 		width: 100%;
@@ -470,6 +470,9 @@ em {
 	}
 	.article_home{
 		width: 33%;
+	}
+	.list{
+
 	}
 
 }
