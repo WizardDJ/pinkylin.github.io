@@ -103,9 +103,90 @@ const playa = [
 		id:0,
 		image:"./img/playa/7126-7111.jpg",
 		title:"Vestido de baño 7126 <br> Salida 7111",
-		description:"Vestido de baño 7126 <br> Tallas: 32, 34, 36, 38 ",
+		description:"Vestido de baño 7126 <br> Tallas: 32, 34, 36, 38 Color: Greta",
 		garment:"Salida 7111, Talla SM-ML",
 		price:"Precio: $135.000 y $85.000"
+	},
+	{
+		id:1,
+		image:"./img/playa/7115-7125.jpg",
+		title:"Vestido de baño 7115 <br> Enterizo 7125",
+		description:"2 Piezas 7115 <br> Enterizo 7125",
+		garment:"Tallas: 32, 34, 36, 38 Color: Verde Nazca",
+		price:"Precio: $130.000"
+	},
+	{
+		id:2,
+		image:"./img/playa/7120-7106.jpg",
+		title:"Vestido de baño 7120 <br> Salida 7106",
+		description:"Vestido de baño 7120 <br> Tallas: 32, 34, 36, 38 Color: Rojo",
+		garment:"Salida 7106 Negro, Talla SM-ML",
+		price:"Precio: $135.000 y $85.000"
+	},
+	{
+		id:3,
+		image:"./img/playa/7111.jpg",
+		title:"Salida asimetrica 7111",
+		description:"Con cinturon ajustable",
+		garment:"Talla SM-ML en Negro y Creta",
+		price:"Precio: $85.000"
+	},
+	{
+		id:1,
+		image:"./img/playa/7115.jpg",
+		title:"Vestido de baño 7115",
+		description:"2 Piezas 7115",
+		garment:"Tallas: 32, 34, 36, 38 Color: Negro",
+		price:"Precio: $130.000"
+	},
+	{
+		id:1,
+		image:"./img/playa/7112.jpg",
+		title:"Vestido de baño 7112",
+		description:"2 Piezas 7112, <br> Color: Negro Nazca y Hawai",
+		garment:"Tallas: 32, 34, 36, 38",
+		price:"Precio: $130.000"
+	},
+	{
+		id:1,
+		image:"./img/playa/7121.jpg",
+		title:"Vestido de baño 7121",
+		description:"2 Piezas 7121",
+		garment:"Tallas: 32, 34, 36, 38 Color: Bora bora",
+		price:"Precio: $138.000"
+	},
+	{
+		id:1,
+		image:"./img/playa/7128.jpg",
+		title:"Salida de baño 7128",
+		description:"2 Piezas 7128",
+		garment:"Tallas: SM-ML Color: Bora bora",
+		price:"Precio: $85.000"
+	},
+	{
+		id:1,
+		image:"./img/playa/7121-Mikonos.jpg",
+		title:"Enterizo Mikonos 7121",
+		description:"Enterizo Mikonos 7121",
+		garment:"Tallas: 32, 34, 36, 38 Color: Mikonos",
+		price:"Precio: $138.000"
+	},
+	{
+		id:2,
+		image:"./img/playa/7120.jpg",
+		title:"Vestido de baño 7120",
+		description:"Vestido de baño 2 piezas 7120",
+		garment:"Tallas: 32, 34, 36, 38 Color: Estampada",
+		price:"Precio: $135.000"
+	},
+	{
+		id:1,
+		image:"./img/playa/7109.jpg",
+		title:"Salida de baño 7109",
+		description:"Doble EStilo",
+		garment:"Tallas: SM-ML Color: Estampada",
+		price:"Precio: $85.000"
+		// pagina 36
 	},
 ];
 
