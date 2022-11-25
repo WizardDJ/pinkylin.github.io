@@ -68,37 +68,45 @@ const lenceria = [
 const brasier = [
 	{
 		id:0,
-		image:"./img/brasier/brasier1.jpg",
-		title:"Brasier 814",
-		description:"Colores: Blanco, Negro, Grape, Verde Garden",
-		garment: "Talla: 32, 34, 36, 38",
-		price: "Precio: $58.000"
+		image:"./img/0.jpg",
+		title:"",
+		description:"",
+		garment: "",
+		price: "Actualizando"
 	},
 ];
 
 const pijama = [
 	{
 		id:0,
-		image:"img/pijama/pijama1.jpg",
-		title:"Pijama 847 ",
-		description:"Satín Pantalón, top tiras",
-		garment:"Talla: S M L XL",
-		price:"Precio: $ 99.900",
+		image:"./img/0.jpg",
+		title:"",
+		description:"",
+		garment: "",
+		price: "Actualizando"
 	},
 ];
 
 const panty = [
 	{
 		id:0,
-		image:"./img/panty/panty7.jpg",
-		title:"Cachetero encaje",
-		description:"Ref: DNA01 Colores surtidos",
-		garment: "Tallas: S M L",
-		price: "Precio: $25.000"
+		image:"./img/0.jpg",
+		title:"",
+		description:"",
+		garment: "",
+		price: "Actualizando"
 	},
 ];
 
 const playa = [
+	{
+		id:0,
+		image:"./img/playa/7116-7066.jpg",
+		title:"Vestido de baño 7116 <br> Salida 7066",
+		description:"Vestido de baño 7116 <br> Tallas: 32, 34, 36, 38 <br> Color: Negro, Africa",
+		garment:"Salida 7066, Talla SM-ML",
+		price:"Precio: $85.000 y $85.000"
+	},
 	{
 		id:0,
 		image:"./img/playa/7126-7111.jpg",
@@ -152,7 +160,7 @@ const playa = [
 		image:"./img/playa/7121.jpg",
 		title:"Enterizo Bora bora 7121",
 		description:"Vestido de baño enterizo 7121",
-		garment:"Tallas: 32, 34, 36, 38 Color: Bora bora",
+		garment:"Tallas: 34, 36, 38, 40 Color: Bora bora",
 		price:"Precio: $138.000"
 	},
 	{
@@ -219,16 +227,48 @@ const playa = [
 		garment:"Tallas: 32, 34, 36, 38 Color: Mikonos y Madagascar",
 		price:"Precio: $135.000"
 	},
+	{
+		id:1,
+		image:"./img/playa/7126.jpg",
+		title:"Enterizo 7126",
+		description:"Enterizo con copa interna y aro ajuste perfecto",
+		garment:"Tallas: 32, 34, 36, 38 Color: Bahamas y Creta",
+		price:"Precio: $135.000"
+	},
+	{
+		id:1,
+		image:"./img/playa/7124.jpg",
+		title:"Enterizo 7124",
+		description:"Diseño en forma de concha dorada",
+		garment:"Tallas: 32, 34, 36, 38 Color: Bahamas y Negro",
+		price:"Precio: $130.000"
+	},
+	{
+		id:1,
+		image:"./img/playa/7112-negro.jpg",
+		title:"Vestido de baño 7112 Negro",
+		description:"Bikini de 2 piezas, panty alto",
+		garment:"Tallas: 32, 34, 36, 38 Color: Mikonos y Negro Nazca",
+		price:"Precio: $135.000"
+	},
+	{
+		id:1,
+		image:"./img/playa/7122.jpg",
+		title:"Enterizo 7122",
+		description:"Enterizo control medio de abdomen ",
+		garment:"Tallas: 32, 34, 36, 38 Color: Nazca Negro",
+		price:"Precio: $140.000"
+	},
 ];
 
 const caballeros = [
 	{
 		id:0,
-		image:"img/caballero/caballero1.jpg",
-		title:"Boxer en algodon <br> Ref: 3011",
-		description:"Marca Reymon",
-		garment:"Tallas: XS S M L XL",
-		price:"Precio: $ 16.000"
+		image:"./img/0.jpg",
+		title:"",
+		description:"",
+		garment: "",
+		price: "Actualizando"
 	},
 ];
 
