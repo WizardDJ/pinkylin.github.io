@@ -150,8 +150,8 @@ const playa = [
 	{
 		id:1,
 		image:"./img/playa/7121.jpg",
-		title:"Vestido de baño 7121",
-		description:"2 Piezas 7121",
+		title:"Enterizo Bora bora 7121",
+		description:"Vestido de baño enterizo 7121",
 		garment:"Tallas: 32, 34, 36, 38 Color: Bora bora",
 		price:"Precio: $138.000"
 	},
@@ -159,7 +159,7 @@ const playa = [
 		id:1,
 		image:"./img/playa/7128.jpg",
 		title:"Salida de baño 7128",
-		description:"2 Piezas 7128",
+		description:"ideal para vestido de baño, ref 7121",
 		garment:"Tallas: SM-ML Color: Bora bora",
 		price:"Precio: $85.000"
 	},
@@ -183,10 +183,41 @@ const playa = [
 		id:1,
 		image:"./img/playa/7109.jpg",
 		title:"Salida de baño 7109",
-		description:"Doble EStilo",
-		garment:"Tallas: SM-ML Color: Estampada",
+		description:"Doble Estilo",
+		garment:"Tallas: SM-ML Color: Bahamas",
 		price:"Precio: $85.000"
-		// pagina 36
+	},
+	{
+		id:1,
+		image:"./img/playa/7117.jpg",
+		title:"Vestido de baño 7117",
+		description:"Doble Estilo, 2 piezas, Panty alto",
+		garment:"Tallas: 32, 34, 36, 38 Color: Bahamas",
+		price:"Precio: $135.000"
+	},
+	{
+		id:1,
+		image:"./img/playa/7119.jpg",
+		title:"Vestido de baño 7119",
+		description:"2 piezas, Diseño en boleros",
+		garment:"Tallas: 32, 34, 36, 38 Color: Creta y Mikonos",
+		price:"Precio: $130.000"
+	},
+	{
+		id:1,
+		image:"./img/playa/7106.jpg",
+		title:"Salida de baño 7106",
+		description:"Salida de baño estilo Kimono, a media pierna",
+		garment:"Tallas: SM-ML Color: Mikonos, Negro, Bahamas",
+		price:"Precio: $85.000"
+	},
+	{
+		id:1,
+		image:"./img/playa/7113.jpg",
+		title:"Vestido de baño 7113",
+		description:"2 piezas, de panty alto",
+		garment:"Tallas: 32, 34, 36, 38 Color: Mikonos y Madagascar",
+		price:"Precio: $135.000"
 	},
 ];
 
