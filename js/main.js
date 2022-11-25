@@ -15,14 +15,14 @@ function toggleButton() {
 // parametros del menu
 
 let telefono = "3114689389";
-let telefono2 = "3166471805";
+let telefono2 = telefono + " 3166471805";
 
 const arrMenu = ['Playa', 'Lenceria', 'index', 'Panty', 'Brasier', 'Pijama', 'Caballero', 'Pinkylin']
 
 let principal = 'Conjuntos'
 
 const telefonohtml = document.querySelector('.agreganos_banner span');
-telefonohtml.textContent = `${telefono, telefono2}`
+telefonohtml.textContent = telefono2
 
 const whatsapp = document.querySelector('.redes__container a');
 whatsapp.href = `https://api.whatsapp.com/send?phone=57${telefono}/`
