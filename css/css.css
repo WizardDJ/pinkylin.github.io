@@ -1,3 +1,4 @@
+/* @import url('./navegacion.css'); */
 *,
 *::after,
 *::before {
@@ -7,6 +8,43 @@
 	font-family: 'Arial', 'Poppins', 'sans-serif', 'icomoon', "Open Sans";
 }
 
+body {
+	font-family: 'Arial', 'Poppins', 'sans-serif', 'icomoon', "Open Sans";
+	font-size: 16px;
+	width: 100%;
+	background-color: white;
+	position: relative;
+}
+
+.contenedor_header{
+	display: block;
+	margin: 0;
+}
+
+.contenedor_section{
+	display: flex ;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.contenedor_footer{
+	display: grid ;
+	grid-template-columns: 100%;
+}
+
+.header_container{
+  padding: 0;
+  margin: 0 ;
+}
+
+.header_container a{
+  color: rgb(50, 50, 50);
+  text-decoration: none;
+  list-style: none;
+}
+
+
+
 .container{
 	display:flex;
 	flex-wrap:wrap;
@@ -15,19 +53,12 @@
 	margin-right:auto;
 	width:100%;
 }
+
 .item{
 	margin:0;
 	padding-left:.9375em;
 	padding-right:.9375em;
 	width:100%;
-}
-
-body {
-	font-family: 'Arial', 'Poppins', 'sans-serif', 'icomoon', "Open Sans";
-	font-size: 16px;
-	width: 100%;
-	background-color: white;
-	position: relative;
 }
 
 a {
@@ -40,36 +71,31 @@ a:hover {
 	text-decoration: none;
 }
 
-
 /* banner agreganos */
 .logo-svg{
-	width: 400px;
-	z-index: 1000;
-	margin-left: 1.5em;
-	margin-top: 1.5em;
-	position: fixed;
-	border-radius: 20px;;
+	width: 200px;
+	border-radius: 0px;;
 }
 
-.agreganos_banner {
+.whatsapp_number {
 	color:rgb(0, 0, 0);
 	border-bottom: 1px solid rgb(209, 210, 211);
-	padding: 0 .5em 0 0;
-	font-size: 1em;
 	text-align: right;
 	width: 100%;
 	font-style: italic;
 	z-index: 100;
 	background-color: rgba(255, 255, 255, 0.3);
-	position: fixed;
-}
-.agreganos_banner span {
-	font-style: normal;
-	font-size: 1.5em;
-	padding: 0 0 0 .2em;
 }
 
-/* redes de chat*/
+.whatsapp_number .whatsapp {
+	font-style: normal;
+	font-size: 1em;
+	padding: 0;
+	margin-left: .5em;
+}
+
+/* redes de chat */
+
 .redes__container {
 	background-color: white;
 	display: flex;
@@ -80,6 +106,7 @@ a:hover {
 	padding: 1em 0;
 	width: 100%;
 }
+
 .wm {
 	padding: .5em .5em .5em 0;
 }
@@ -102,32 +129,31 @@ a:hover {
 	width: 100%;
 }
 
-.nav-container{
+nav{
 	padding: 1em;
 	width: 100%;
-    border: none;
-    background-color: #F5f118;
+	border: none;
+	background-color: #F5f118;
 	margin: 0 auto;
-    color: rgb(0, 0, 0);
-    cursor: pointer;
-    font-family: 'arial','Poppins', "sans-serif" 'icomoon', "Open Sans";
+	color: rgb(0, 0, 0);
+	cursor: pointer;
+	font-family: 'arial','Poppins', "sans-serif" 'icomoon', "Open Sans";
 	display: block;
 }
 
-.nav_ul {
+.navegacion {
 	display: block;
-	flex-wrap: wrap;
-	list-style: none;
 	width: 100%;
 	background-color: white;
+	/* margin-bottom: 3em; */
 }
 
-.nav_li {
+.link_li {
 	border: 1px solid #F5F118;
     font-weight: bold;
 } 
 
-.nav_li:hover {
+.link_li:hover {
     background: white;
     color: #F5f118;
     border: 1px solid #F5F118;
@@ -135,16 +161,18 @@ a:hover {
 }
 
 /* seccion de productos */
+
 .section {
     padding: .5em 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
+
 .article_home{
-    width: 25%;
+	width: 25%;
 	color: #242424;
-    font-size: 1rem;
+	font-size: 1rem;
 }
 
 .article_container{
@@ -154,6 +182,7 @@ a:hover {
 	margin: 1em;
 	color: rgb(0, 0, 0);
 }
+
 .article_home img {
     width: 100%;
     border-radius: 5px 5px 0 0;
@@ -170,13 +199,16 @@ a:hover {
 	padding-bottom: 1em;
 	margin: 0 auto;
 }
+
 .article_home .description, .garment, .price{
 	width: 90%;
 	margin: 0 auto;
 }
+
 .article_home .description, .garment{
 	font-weight: 200;
 }
+
 .article_home .price{
 	margin-top: .5em;
 	padding-top: .5em;
@@ -184,7 +216,7 @@ a:hover {
 	border-top: 1px solid rgb(0, 0, 0);
 }
 
-.footerPinkylin {
+.footer_container {
 	text-align: center;
 	padding: 0;
 	margin: 0;
@@ -217,7 +249,6 @@ a:hover {
 	color: rgba(255, 255, 255, 0.582);
 	width: 100%;
 	font-size: .8em;
-	margin-bottom: 3.5em;
 }
 
 .redes__sociales {
@@ -226,12 +257,13 @@ a:hover {
 	background-color: white;
 }
 
-.contenedor-imagen {
+/* .contenedor-imagen {
 	display: inline;
 	margin: 0 .3em;
 	padding: 0;
-}
+} */
 
+/* boton up */
 .subir {
 	position: fixed;
 	bottom: 0.5em;
@@ -243,46 +275,39 @@ a:hover {
 	z-index: 2000;
 }
 
-em {
+/* em {
 	display: block;
 	height: 1px;
 	margin: 1em 0;
 	background-color: rgb(192, 192, 192);
-}
+} */
 
-.pad {
+/* .pad {
 	padding: 1em;
-}
+} */
 
-.text {
+/* .text {
 	font-size: 1.2em;
 	text-align: center;
 	font-family: 'Poppins', "sans-serif" 'icomoon', "Open Sans";
-}
-
+} */
 
 /* imagen corporativa */
 
-.imagenCorporativa {
+/* .imagenCorporativa {
 	background-color: #333E48;
 	display: block;
 	width: 100%;
 	padding: 1em 0 0 0;
 	border-radius: 5px;
 	margin-top: 1.5em;
-}
+} */
 
 @media screen and (min-width: 0px) {
 	.logo-svg{
-		margin: 0 0 0 1em;
-		bottom: 0em;
-		width: 25%;
-		border-radius: 20px;
-		}
-	.ed-container {
-		padding: 0;
+		width: 100%;
 	}
-	.agreganos_banner {
+	.whatsapp_number {
 		display: flex;
 		justify-content: flex-end;
 		align-items: center;
@@ -290,9 +315,8 @@ em {
 		padding: .2em 1em;
 		width: 100%;
 		color: white;
-		background-color: #000000;
 	}
-	.agreganos_banner span{
+	.whatsapp_number span{
 		font-size: .9em;
 		font-style: italic;
 	}
@@ -307,7 +331,7 @@ em {
 		padding: 0;
 	}
 
-	.nav_li {
+	.link_li {
         display: block;
         width: 100%;
         padding: 1em;
@@ -315,14 +339,14 @@ em {
         text-align: left;
         margin: 0;
 	}
-    .nav_li:hover {
-        text-align: center;
-        background: #F5F118;
-        color: rgb(0, 0, 0);
-        font-weight: bold;
-        font-size: 1em;
-    }
-	.nav_a {
+	.link_li:hover {
+			text-align: center;
+			background: #F5F118;
+			color: rgb(0, 0, 0);
+			font-weight: bold;
+			font-size: 1em;
+	}
+	.link_a {
 		margin: 0;
 	}
 	
@@ -340,29 +364,32 @@ em {
 		margin: 0;
 		display: inline-block;
 	}
-	.footerPinkylin{
+	.footer_container{
 		margin: 0;
 	}
 }
 
 @media screen and (min-width: 768px) {
 	.logo-svg{
-		width: 150px;
-		z-index: 1000;
+		width: 200px;
+		margin-top: 1em;
 		margin-left: 1.5em;
-		top: 1em;
-		position: fixed;
-		border-radius: 20px;
+		border-radius: 5px;
 	}
+
 	/* Navegacion */
-	.nav-bar {
+
+	.navegacion {
 		display: block;
 		width: 100%;
 		margin: 0 auto;
-		padding: 0;
+		padding: .5em 0 .5em;
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: center;
 	}
 	
-	.nav-container {
+	nav {
 		margin: 0;
 		height: 0;
 		padding: 0;
@@ -370,54 +397,47 @@ em {
 		color: rgb(255, 255, 255);
 	}
 	
-	.nav_ul {
-		padding: .5em 0 .5em;
-		display: flex;
-		flex-flow: row wrap;
-		justify-content: flex-end;
-	}
-	
-	.nav_li {
+	.link_li {
 		text-align: center;
 		display: inline-block;
 		border-radius: 5px;
 		width: 9em;
 	}
 	
-	.nav_li:hover {
-        border-radius: 5px;
-        text-align: center;
-        background: #F5F118;
-        color: rgb(0, 0, 0);
-        border: 1px solid #F5F118;
-        font-weight: bold;
-        font-size: 1em;
-    }
+	.link_li:hover {
+		border-radius: 5px;
+		text-align: center;
+		background: #F5F118;
+		color: rgb(0, 0, 0);
+		border: 1px solid #F5F118;
+		font-weight: bold;
+		font-size: 1em;
+  }
 	
-	.nav_a {
+	.link_a {
 		margin: .2em .2em;
 		padding: 0;
 	} 
 
-	.agreganos_banner {
+	.whatsapp_number {
 		display: flex;
 		justify-content: flex-end;
-		padding: .5em 1em;
+		/* padding: .5em 1em; */
 		background-color: transparent;
 		color: #000000;
 	}
-	.agreganos_banner span{
+
+	.whatsapp_number span{
 		font-size: 1;
 		font-style: italic;
 	}
-	text {
-		display: none;
-	}
+
 	.redes__container {
 		padding: 1em 0;
 		display: block;
 		justify-content: flex-end;
 	}
+	
 	.redes__container a {
 		margin: 0 .5em 0 0;
 		padding: .5em;
@@ -436,21 +456,15 @@ em {
 	.article_home .price{
 		font-size: 1.5em;
 	}
-	.footerPinkylin{
+	.footer_container{
 		margin: 0;
 	}
-
 }
 
 @media screen and (min-width: 1280px) {
-	.logo-svg{
-		width: 300px;
-		margin-top: 1em;
-		border-radius: 20px;
-	}
-	.agreganos_banner {
+	.whatsapp_number {
 		font-size: 1.5em;
-		padding: 1em;
+		/* padding: 1em; */
 	}
 	.redes__container {
 		font-size: 1.3em;
@@ -460,21 +474,17 @@ em {
 		width: 100%;
 	}
 	
-	.nav_ul {
+	.navegacion {
 		justify-content: space-evenly;
 	}
 
-	.nav_li{
+	.link_li{
 		text-align: center;
 		width: 9em;
 	}
 	.article_home{
 		width: 33%;
 	}
-	.list{
-
-	}
-
 }
 
 @media screen and (min-width: 1520px) {
