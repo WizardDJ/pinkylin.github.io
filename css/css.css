@@ -95,7 +95,7 @@ a:hover {
 
 /* redes de chat */
 
-.redes_container {
+.redes {
   background-color: white;
   display: flex;
   font-family: "Poppins", "icomoon", "Open Sans";
@@ -252,7 +252,7 @@ nav {
   font-size: 0.8em;
 }
 
-.redes_container {
+.redes {
   text-align: center;
   padding: 0.5em 0;
   background-color: white;
@@ -297,13 +297,13 @@ nav {
     font-size: 0.9em;
     font-style: italic;
   }
-  .redes_container {
+  .redes {
     text-align: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
   }
-  .redes_container div {
+  .redes div {
     display: inline;
     padding: 0.5em;
   }
@@ -392,12 +392,12 @@ nav {
     font-size: 1;
     font-style: italic;
   }
-  .redes_container {
+  .redes {
     padding: 1em 0;
     display: block;
     justify-content: flex-end;
   }
-  .redes_container a {
+  .redes a {
     margin: 0 0.5em 0 0;
     padding: 0.5em;
   }
@@ -424,7 +424,7 @@ nav {
     font-size: 1.1em;
     /* padding: 1em; */
   }
-  .redes_container {
+  .redes {
     font-size: 1.3em;
   }
   .nav-bar {

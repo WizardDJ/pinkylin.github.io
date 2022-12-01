@@ -1,4 +1,4 @@
-import { redes_container } from './redes_container.js'
+import { redes } from './redes.js'
 export const footer = document.getElementById('footer')
 footer.id = 'footer_container'
 footer.className = 'footer_container'
@@ -8,7 +8,7 @@ hooo.innerHTML = `
 <div class="derechos"> © Todos los derechos reservados 2020 </div>
 `
 footer.append(
-  redes_container, 
+  redes, 
   hooo,
   )
 

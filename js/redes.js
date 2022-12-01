@@ -1,8 +1,8 @@
-export const redes_container = document.createElement('div')
+export const redes = document.createElement('div')
 
-redes_container.id = 'redes_container'
-redes_container.className = 'item redes_container'
-redes_container.innerHTML = `
+redes.id = 'redes'
+redes.className = 'item redes'
+redes.innerHTML = `
   <div>
     <a class="item icon-facebook2 facebook" 
     href="https://www.facebook.com/pinkylinmodaintima" 
