@@ -1,18 +1,5 @@
 import { data_menu } from './data_menu.js'
-
-// menu hamburguesa
-function toggleButton() {
-	let menu = document.getElementById('nav-bar');
-	if(!menu) return false
-
-	if(menu.style.display === 'block' || menu.style.width == "768" ){
-		menu.style.display = "none"
-	} 
-	else {
-		menu.style.display = "block"
-	}
-	return true;
-}
+import { boton } from './toggle.js'
 
 // parametros del menu
 
@@ -45,4 +32,5 @@ crear_navegacion(data_menu);
 
 navegar.append(
 	navegacion,
+	boton,
 )
