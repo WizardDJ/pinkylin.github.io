@@ -51,13 +51,25 @@ body {
   margin-right: auto;
   width: 100%;
 }
+.pinkylin_container{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: .5em;
+  padding: 1em;
+}
 
-.item {
+.pinkylin_container div{
+  width: 100%;
+  padding: 1em;  
+  background-color: #f1eaea;
+}
+
+/* .item {
   margin: 0;
   padding-left: 0.9375em;
   padding-right: 0.9375em;
   width: 100%;
-}
+} */
 
 a {
   padding: 0;
@@ -416,6 +428,12 @@ nav {
   .article_home .price {
     font-size: 1.5em;
   }
+  .pinkylin_container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: .5em;
+    padding: 1em;
+  }
   .footer_container {
     margin: 0;
   }
@@ -424,7 +442,6 @@ nav {
 @media screen and (min-width: 1280px) {
   .whatsapp_number {
     font-size: 1.1em;
-    /* padding: 1em; */
   }
   .redes {
     font-size: 1.3em;
@@ -432,15 +449,19 @@ nav {
   .nav-bar {
     width: 100%;
   }
-  .navegacion {
-    justify-content: space-evenly;
-  }
+
   .link_li {
     text-align: center;
     width: 9em;
   }
   .article_home {
     width: 33%;
+  }
+  .pinkylin_container{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: .5em;
+    padding: 1em;
   }
 }
 
