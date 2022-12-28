@@ -298,12 +298,14 @@ nav {
   }
   .whatsapp_text{
     color: rgb(0, 0, 0);
+    font-size: 1em;
+
   }
   .whatsapp_number {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    font-size: 1.1em;
+    font-size: 1em;
     padding: 0.2em 1em;
     width: 100%;
     color: #f5f118;
