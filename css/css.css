@@ -296,6 +296,9 @@ nav {
     width: 100%;
     margin-top: 2em;
   }
+  .whatsapp_text{
+    color: rgb(0, 0, 0);
+  }
   .whatsapp_number {
     display: flex;
     justify-content: flex-end;
@@ -399,7 +402,7 @@ nav {
     display: flex;
     justify-content: flex-end;
     /* padding: .5em 1em; */
-    background-color: transparent;
+    background-color: white;
     color: #000000;
   }
   .whatsapp_number span {
