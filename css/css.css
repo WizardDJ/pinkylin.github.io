@@ -1,13 +1,13 @@
-/* @import url('./navegacion.css'); */
-*,
-*::after,
-*::before {
+:root{
+  --colorAmarillo: #fffb05;
+}
+*, *::after, *::before {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
   font-family: "Arial", "Poppins", "sans-serif", "icomoon", "Open Sans";
+  outline: none;
 }
-
 body {
   font-family: "Arial", "Poppins", "sans-serif", "icomoon", "Open Sans";
   font-size: 16px;
@@ -15,34 +15,31 @@ body {
   background-color: white;
   position: relative;
 }
-
 .contenedor_header {
   display: block;
   margin: 0;
 }
-
 .contenedor_section {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-
 .contenedor_footer {
   display: grid;
   grid-template-columns: 100%;
 }
-
 .header_container {
   padding: 0;
   margin: 0;
 }
-
 .header_container a {
   color: rgb(50, 50, 50);
   text-decoration: none;
   list-style: none;
 }
-
+.header_container:nth-child(1) {
+ background-color: var(--colorAmarillo);
+}
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -57,7 +54,6 @@ body {
   grid-gap: .5em;
   padding: 1em;
 }
-
 .pinkylin_container div{
   width: 100%;
   padding: 1em;  
@@ -86,7 +82,6 @@ a:hover {
   width: 200px;
   border-radius: 0px;
 }
-
 .whatsapp_number {
   color: rgb(0, 0, 0);
   border-bottom: 1px solid rgb(209, 210, 211);
@@ -96,7 +91,6 @@ a:hover {
   z-index: 100;
   position: fixed;
 }
-
 .whatsapp_number .whatsapp {
   font-style: normal;
   font-size: 1em;
@@ -116,17 +110,14 @@ a:hover {
   padding: 0;
   width: 100%;
 }
-
 .wm {
   padding: 0.5em 0.5em 0.5em 0;
 }
-
 .banner_contenedor {
-  background-color: #f5f118;
+  background-color: var(--colorAmarillo)
   text-align: center;
   padding: 2em 0 1em;
 }
-
 .banner-img {
   padding: 1.5em;
 }
@@ -143,118 +134,99 @@ nav {
   padding: 1em;
   width: 100%;
   border: none;
-  background-color: #f5f118;
+  background-color: var(--colorAmarillo);
   margin: 0 auto;
   color: rgb(0, 0, 0);
   cursor: pointer;
   font-family: "arial", "Poppins", "sans-serif" "icomoon", "Open Sans";
   display: block;
 }
-
 .navegacion {
   display: none;
   width: 100%;
   background-color: white;
-  /* margin-bottom: 3em; */
 }
-
 .link_li {
-  border: 1px solid #f5f118;
+  border: 1px solid var(--colorAmarillo);
   font-weight: bold;
 }
-
 .link_li:hover {
   background: white;
-  color: #f5f118;
-  border: 1px solid #f5f118;
+  color: var(--colorAmarillo);
+  border: 1px solid var(--colorAmarillo);
   font-weight: bold;
 }
 
 /* seccion de productos */
-
 .section {
   padding: 0.5em 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-
 .article_home {
   width: 25%;
   color: #242424;
   font-size: 1rem;
 }
-
 .article_container {
   border-radius: 8px;
-  /* background: #7DFAB1; */
-  background: #f5f118;
+  background: var(--colorAmarillo);
   margin: 1em;
   color: rgb(0, 0, 0);
 }
-
 .article_home img {
   width: 100%;
   border-radius: 5px 5px 0 0;
   margin: 0;
 }
-
 .article_home .content {
   padding: 1em;
 }
-
 .article_home .title {
   text-align: center;
   width: 90%;
   padding-bottom: 1em;
   margin: 0 auto;
 }
-
 .article_home .description,
 .garment,
 .price {
   width: 90%;
   margin: 0 auto;
 }
-
 .article_home .description,
 .garment {
   font-weight: 200;
 }
-
 .article_home .price {
   margin-top: 0.5em;
   padding-top: 0.5em;
   text-align: end;
   border-top: 1px solid rgb(0, 0, 0);
 }
-
 .footer_container {
   text-align: center;
   padding: 0;
   margin: 0;
 }
-
 .categoria {
   width: 100px;
   padding: 1em 0;
 }
-
 .redes__contenedor {
   background: white;
   margin: 0 auto;
   width: 100%;
 }
-
 .redes__titulo {
   color: rgb(0, 0, 0);
   padding: 2em 0;
   text-align: center;
   width: 100%;
   margin: 0;
-  background-color: #f5f118;
+  background-color: var(--colorAmarillo);
 }
-
 .derechos {
   background-color: #000;
   text-align: center;
@@ -263,7 +235,6 @@ nav {
   width: 100%;
   font-size: 0.8em;
 }
-
 .redes {
   text-align: center;
   padding: 0.5em 0;
@@ -299,7 +270,6 @@ nav {
   .whatsapp_text{
     color: rgb(0, 0, 0);
     font-size: 1em;
-
   }
   .whatsapp_number {
     display: flex;
@@ -308,7 +278,7 @@ nav {
     font-size: 1em;
     padding: 0.2em 1em;
     width: 100%;
-    color: #f5f118;
+    color: var(--colorAmarillo);
   }
   .whatsapp_number span {
     font-size: 0.9em;
@@ -334,7 +304,7 @@ nav {
   }
   .link_li:hover {
     text-align: center;
-    background: #f5f118;
+    background: var(--colorAmarillo);
     color: rgb(0, 0, 0);
     font-weight: bold;
     font-size: 1em;
@@ -373,10 +343,9 @@ nav {
     display: block;
     width: 100%;
     margin: 0 auto;
-    padding: 0.5em 0 0.5em;
+    padding: 1em 0 0 1.2em;
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
   }
   .boton_toggle {
     display: none;
@@ -385,14 +354,14 @@ nav {
     text-align: center;
     display: inline-block;
     border-radius: 5px;
-    width: 9em;
+    width: 100%;
   }
   .link_li:hover {
     border-radius: 5px;
     text-align: center;
-    background: #f5f118;
+    background: var(--colorAmarillo);
     color: rgb(0, 0, 0);
-    border: 1px solid #f5f118;
+    border: 1px solid var(--colorAmarillo);
     font-weight: bold;
     font-size: 1em;
   }
@@ -403,7 +372,6 @@ nav {
   .whatsapp_number {
     display: flex;
     justify-content: flex-end;
-    /* padding: .5em 1em; */
     background-color: white;
     color: #000000;
   }
@@ -452,12 +420,11 @@ nav {
     font-size: 1.3em;
   }
   .nav-bar {
-    width: 100%;
+    width: 50%;
   }
-
   .link_li {
     text-align: center;
-    width: 9em;
+    width: 100%;
   }
   .article_home {
     width: 33%;

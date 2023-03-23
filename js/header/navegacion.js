@@ -10,7 +10,7 @@ navegacion.id = 'navegacion'
 navegacion.className = 'navegacion'
 
 
-let principal = 'Conjuntos'
+let principal = 'Vestidos de baño'
 
 let crear_navegacion = (arr) => {
 	let arrItem;
