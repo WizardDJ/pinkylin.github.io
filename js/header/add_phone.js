@@ -1,7 +1,7 @@
 const phone1 = "3114689389"
 const phone2 = "3166471805"
 const whatsapp1 = `http://wa.me/57${phone1}/`
-const whatsapp2 = `https://api.whatsapp.com/send?phone=57${phone2}/`
+const whatsapp2 = `http://wa.me/57${phone2}/`
 
 export const add_phone = document.createElement('div')
 
