@@ -6,7 +6,7 @@ redes.innerHTML = `
   <div>
     <a class="item icon-facebook2 facebook" 
     href="https://www.facebook.com/pinkylinmodaintima" 
-    target="_blank"> Facebook </a>
+    target="_blank"> @pinkylinmodaintima </a>
   </div>
   <div>
   <a class="icon-messenger messenger"
@@ -16,6 +16,6 @@ redes.innerHTML = `
   <div>
   <a class="item icon-instagram instagram" 
   href="https://www.instagram.com/pinkylin2020/" 
-  target="_blank"> Instagram </a>
+  target="_blank"> pinkylin2020 </a>
   </div>
 `

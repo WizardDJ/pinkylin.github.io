@@ -7,13 +7,13 @@ export const add_phone = document.createElement('div')
 
 add_phone.className = 'whatsapp_number'
 add_phone.innerHTML = `
-<div class="whatsapp_text"></div>
+<div class="whatsapp_text">Contactenos:</div>
 <a href="${whatsapp1}" target="_blank"> 
-    <span class="icon-whatsapp whatsapp wm"></span> ${phone1}
+    <span class="icon-whatsapp whatsapp wm"> ${phone1}</span>
   </a>
 
   <a href="${whatsapp2}" target="_blank"> 
-    <span class="icon-whatsapp whatsapp wm"></span> ${phone2}
+    <span class="icon-whatsapp whatsapp wm"> ${phone2}</span>
   </a>
 
   `
