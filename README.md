@@ -1,6 +1,6 @@
 # Pinkylin
 ## Tienda online...
-[pinkylinmodaintima.online](https://crkjalive.github.io/pinkylin/)
+[pinkylin.store](https://crkjalive.github.io/pinkylin/)
 
 prendas intimas para dama y caballero
 
